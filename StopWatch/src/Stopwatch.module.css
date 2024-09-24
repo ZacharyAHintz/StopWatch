@@ -1,0 +1,35 @@
+.stopwatch {
+  background: rgb(216, 216, 216);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.display {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5f758b;
+  color: rgb(204, 204, 204);
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #3d4b5a;
+}
