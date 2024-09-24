@@ -4,6 +4,7 @@ import styles from "./Stopwatch.module.css";
 export default function Stopwatch() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
+  // ...
 
   useEffect(() => {
     let timer;
